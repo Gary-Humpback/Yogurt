@@ -1,0 +1,11 @@
+# for macOS
+.DS_Store
+
+# pycharm
+__pycache__
+
+# IDE
+.idea
+
+# vue
+node_modules
