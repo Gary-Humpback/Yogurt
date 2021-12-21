@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 =======================================
-Filename: utils
-Description: tools for server
+Filename: user_service
+Description: service for blueprint user
 =======================================
 """

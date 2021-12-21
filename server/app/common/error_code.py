@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 =======================================
-Filename: utils
-Description: tools for server
+Filename: error_code
+Description: error code type about Yogurt
 =======================================
 """
