@@ -1,2 +1,8 @@
 flask==2.0.2
+flask_cors==3.0.10
 pyyaml==6.0
+python-dateutil==2.8.2
+apscheduler==3.8.1
+flask-apscheduler==1.12.3
+sqlalchemy==1.4.28
+redis==3.2.0

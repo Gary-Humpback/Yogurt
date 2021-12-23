@@ -1,0 +1,12 @@
+DB:
+  database: yogurt
+  username: wizard
+  password: 123456
+  drivename: postgresql
+  host: localhost
+  port: 5432
+
+RDS:
+  host: localhost
+  port: 6379
+  db: 1

@@ -9,6 +9,8 @@ import os
 import yaml
 import logging
 
+from server.app.common.sql_engine import *
+
 logger = logging.getLogger(__name__)
 
 
@@ -33,6 +35,12 @@ class Config:
     server_root = '/'.join(os.path.abspath(os.path.dirname(__file__)).split('/')[:-2])
     with open(f'{server_root}/app/configs/config.yaml') as f:
         conf = yaml.load(f, Loader=yaml.FullLoader)
+
+    # DATABASE
+    db_conf = read_conf(conf, 'DB')
+    engine = SQLEngine(db_conf)
+    rds_conf = read_conf(conf, 'RDS')
+    rds = RedisEngine(rds_conf)
 
 
 if __name__ == '__main__':
